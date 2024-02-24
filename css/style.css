@@ -291,6 +291,7 @@ button {
 
 .logo {
 	text-align: center;
+	font-size: 5%;
 }
 
 /** banner section **/
@@ -298,7 +299,7 @@ button {
 .banner {
 	position: relative;
 	background: url(../images/banner1.jpg);
-	background-size: 100% 100%;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	min-height: 804px;
@@ -575,6 +576,7 @@ button {
 }
 
 .galleryh3 h3 {
+	text-align: left;
 	font-size: 24px;
 	line-height: 30px;
 	color: #fff;
@@ -582,6 +584,7 @@ button {
 }
 
 .galleryh3 p {
+	text-align: left;
 	font-size: 17px;
 	line-height: 31px;
 	color: #fff;
@@ -714,10 +717,23 @@ button {
 	padding-top: 15px;
 }
 
+.latest_news .news_box .news_room h2 {
+	font-size: 19px;
+	color: #252525;
+	line-height: 22px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding-bottom: 12px;
+	padding-top: 15px;
+	display: block;
+	transition: ease-in all 0.5s;
+}
+
 .latest_news .news_box .news_room span {
 	font-size: 15px;
 	color: #252525;
 	font-weight: 400;
+
 	margin-bottom: 0px;
 	display: block;
 	transition: ease-in all 0.5s;
